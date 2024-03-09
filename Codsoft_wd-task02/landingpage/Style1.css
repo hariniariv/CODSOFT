@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container3 {
+    display: flex;
+    margin-top: -25px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f44545;
+    color: white;
+    padding: 10px 20px;
+}
+
+.top-right-menu a {
+    margin-left: 20px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.top-right-menu a:hover {
+    color: #c51212;
+}
+.top-right-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background: #f44545;
+}
+
+.top-right-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color:#f44545;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#hero {
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+    background-color:#ffc3c3;
+}
+
+
+.btn {
+    background-color:  #6867ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn1 {
+        background-color: #6867ff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+
+}
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btn1 {
+    margin-top: 15px;
+    margin-left: -50%; 
+}
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.review:hover {
+    background-color: #f1f1f1; 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2); 
+}
+
+.review {
+    width: 26%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.container2 h2 {
+    margin-bottom: 10px;
+    }
+.review h3 {
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+
+.btn:hover {
+    background: #70db29;
+}
+
+
+#reviews {
+    background-color: #ffc3c3;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.review {
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.review h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.review p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+@media (max-width: 768px) {
+    .review {
+        padding: 15px;
+        margin: 15px 0;
+    }
+}
+
+#features {
+    padding: 4rem 0;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.8;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.feature-image {
+    float: left;
+    margin-right: 20px;
+    max-width: 400px; 
+    border-radius: 5px; 
+}
+
+.feature-image1 {
+    float: right;
+    margin-right: -70px;
+    max-width: 400px; 
+    border-radius: 5px; 
+}
+
+.feature:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+    background-color: #f44545;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
